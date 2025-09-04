@@ -30,10 +30,10 @@ curl -X POST https://api.llmgateway.io/v1/chat/completions \
   -d '{
   "model": "gpt-4o",
   "messages": [
-    {"role": "user", "content": "Hello, how are you?"}
+    {"role": "user", "content": "Hello, how are you?" }
   ]
 }'
-```
+``` 
 
 ## Development Setup
 
